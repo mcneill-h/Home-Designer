@@ -31,8 +31,10 @@ To store information of where the walls are placed, I used a list in which each 
 
 By default, the program is set to analyse and reproduce in 3D the "Image11.png" image. To change which image, go into the "Final_Simulation_3D_definition.py" code file and change the "Image11.png" path to another image of your choice. Moreover, users can choose how many walls are generated on each row and column by changing the "Nb_murs" value (It is set at 50 by default. 
 
-Launch the "Final_Simulation_3D.py" code to start the program. An editing menu will then appear, allowing the walls to be placed, removed, or textured. Hence the user can reproduce any house's floor. <img width="180" height="178" alt="Screenshot 2026-07-16 at 20 40 18" src="https://github.com/user-attachments/assets/5122a8a8-34b9-4605-8df9-7f8382405f4c" />
-
+Launch the "Final_Simulation_3D.py" code to start the program. An editing menu will then appear, allowing the walls to be placed, removed, or textured. Hence the user can reproduce any house's floor. 
+<p align="center">
+<img width="180" height="178" alt="Screenshot 2026-07-16 at 20 40 18" src="https://github.com/user-attachments/assets/5122a8a8-34b9-4605-8df9-7f8382405f4c" />
+</p>
 Finally, press the “enter” key to get close the editing menu and launch the simulation. 
 
 - Use WASD keys to move.
