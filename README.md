@@ -23,24 +23,25 @@ Despite its effectiveness, the program has several limitations. It currently onl
 I computed collisions by taking advantage of the geometry of the environment. By creating a grid-based representation of wall placement, I could exploit repeating patterns and trigonometry to determine the positions of possible intersections. The program then only needed to check whether a wall existed at a given intersection with the ray. The program send over 1200 rays, at an fov of 120 degrees, in order to generate the 3D walls
 
 To store information of where the walls are placed, I used a list in which each binary value determines whether a square “block” contains a wall. “1” indicates the presence of a wall, while “0” indicates empty space. Through an algorithm this list is then divided into two: one containing information about all horizontal walls and the other about vertical walls. This transformation is necessary so that, after scanning a blueprint, the environment can be reproduced in a uniform structure.
+<img width="248" height="75" alt="Screenshot 2026-07-16 at 20 40 08" src="https://github.com/user-attachments/assets/d88e1ecb-9e11-43ff-afb2-79065d458638" />
 
 
 # How to use the program?
 
 By default, the program is set to analyse and reproduce in 3D the "Image11.png" image. To change which image, go into the "Final_Simulation_3D_definition.py" code file and change the "Image11.png" path to another image of your choice. Moreover, users can choose how many walls are generated on each row and column by changing the "Nb_murs" value (It is set at 50 by default. 
 
-Launch the "Final_Simulation_3D.py" code to start the program. An editing menu will then appear, allowing the walls to be placed, removed, or textured. Hence the user can reproduce any house's floor.
+Launch the "Final_Simulation_3D.py" code to start the program. An editing menu will then appear, allowing the walls to be placed, removed, or textured. Hence the user can reproduce any house's floor. <img width="90" height="89" alt="Screenshot 2026-07-16 at 20 40 18" src="https://github.com/user-attachments/assets/5122a8a8-34b9-4605-8df9-7f8382405f4c" />
 
-Finally, press the “enter” key to get pass the editing menu and use WASD keys to move. Press O or K to change the size of the walls.
+Finally, press the “enter” key to get close the editing menu and launch the simulation. 
 
-
+- Use WASD keys to move.
+- Press O or K to change the height of the walls.
+- Press P or L to change the player's moving speed
 
 
 <p align="center">
 <img width="264" height="100" alt="2222" src="https://github.com/user-attachments/assets/bdb049c1-0b73-4014-b28d-fa55bb6a302e" /> <img width="333" height="89" alt="3333" src="https://github.com/user-attachments/assets/af0ef5d5-6044-4ade-a352-572bb76cf505" />
 </p>
-
-
 
 
 # Installation
