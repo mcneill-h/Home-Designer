@@ -18,6 +18,8 @@ processor, it can render up to a quarter of a million walls.
 
 Despite its effectiveness, the program has several limitations. It currently only supports single-floor buildings and places walls in a grid-based, horizontally and vertically. We can reproduce approximated diagonal or curved walls by combining multiple small segments, but this remains a workaround rather than a true solution.
 
+No AI was used to generate the code. AI was never used in the development of this program.
+
 # Broad Program explanation
 
 I computed collisions by taking advantage of the geometry of the environment. By creating a grid-based representation of wall placement, I could exploit repeating patterns and trigonometry to determine the positions of possible intersections. The program then only needed to check whether a wall existed at a given intersection with the ray. The program send over 1200 rays, at an fov of 120 degrees, in order to generate the 3D walls
