@@ -18,7 +18,7 @@ processor, it can render up to a quarter of a million walls.
 
 Despite its effectiveness, the program has several limitations. It currently only supports single-floor buildings and places walls in a grid-based, horizontally and vertically. We can reproduce approximated diagonal or curved walls by combining multiple small segments, but this remains a workaround rather than a true solution.
 
-No AI was used to generate the code. AI was never used in the development of this program.
+No AI was used to generate the code. AI was never used in the development of this program. Except for the initial idea and ray casting theory given by a mentor (more information in the code), the algorithm and code structure was entirely self-made.
 
 # Broad Program explanation
 
