@@ -51,7 +51,7 @@ Finally, press the “enter” key to get close the editing menu and launch the 
 
 # Installation
 
-Download the "Final_simulation_3D" folder and play the "Final_simulation_3D.py" code. I personally use Thonny 4.1.7 with Python 3.10 to run the script. The following libraries are downloaded on my computer: Pygame (2.6.1), math, PIL (1.1.6) and ImageIO (2.37.0).
+Download the "Final_simulation_3D" folder and play the "Final_simulation_3D.py" code. I personally use Python 3.10 to run the script. The following libraries are downloaded on my computer: Pygame (2.6.1), math, PIL (1.1.6) and ImageIO (2.37.0).
 
 # License
 Licensed under the MIT License - See the LICENSE document
